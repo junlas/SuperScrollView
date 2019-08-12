@@ -15,4 +15,10 @@ export default class challenge3Cells extends BaseCell {
 
     }
 
+    click(event) {
+        
+        cc.log('gogogo:',this.lblCell.string);
+    } 
+
+
 }

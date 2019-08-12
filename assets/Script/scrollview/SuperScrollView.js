@@ -6,7 +6,7 @@ const {ccclass, property} = cc._decorator;
 export default class SuperScrollView extends BaseScrollView {
 
     onLoad() {
-        let scrollCount = 4;
+        let scrollCount = 40;
         let data = [];
         for (let i = 0; i < scrollCount; i++) {
             data.push(i);

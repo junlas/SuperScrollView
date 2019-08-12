@@ -9,7 +9,7 @@ export default class MainScene extends cc.Component {
     _nodePrefab = null;
     
     onLoad() {
-        cc.director.setDisplayStats(false);
+        cc.debug.setDisplayStats(false);
 
         cc.loader.loadRes(`prefab/challenge3`,cc.Prefab,(error,/**@type {cc.Prefab} */prefabClass)=>{
             this._nodePrefab = cc.instantiate(prefabClass);
